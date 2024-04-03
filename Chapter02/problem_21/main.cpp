@@ -66,6 +66,7 @@ int ReadFile(HANDLE,
 
 #include <algorithm>
 #include <vector>
+#include <stdexcept>
 
 template <typename Traits>
 class unique_handle
